@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="none" verbose="1" >
+  <test name="login" >
+  
+  <parameter name="excelName" value="wingslogin.xls"/>
+  <parameter name="sheetName" value="SheetNames.txt"/>
+  
+    <classes>
+    
+     
+     <class name="usPayments.Login" />
+   
+    </classes>
+ </test>
+ 
+ 
+<test name="screenVerification">
+  <parameter name="excelName" value="wingslogin.xls"/>
+  <parameter name="sheetName" value="SheetNames2.txt"/>
+  
+    <classes>
+    
+     
+     <class name="usPayments.Login" />
+   
+    </classes>
+  </test>
+  <!-- 
+   <test name="savings" >.
+    <classes>
+    <class name="framework.Login" />
+     <class name="odpages.OdAccountCreation" />
+     <class name="utilities.AccountModification" >
+       <methods><include name="modificationModule"/>
+        </methods>
+            </class>
+            <class name="loanpages.LoanAccountCreation" />
+     <class name="lroanpages.LoanAccountCreation" />
+      <class name="odpages.OdAccountCreation" />
+      <class name="currentpages.CurrentAccountCreation" />
+      <class name="fdPages.FdAccountCreation" />
+       <class name="savingpages.SavingAccountCreation" />
+    <class name="KYC.KycCreation" />
+     <class name="currentpages.CurrentAccountCreation" />
+       <class name="savingpages.SavingAccountCreation" />
+     <class name="savingpages.SavingAccountCreation" /> 
+       <class name="savingpages.CashReceipt" />
+        
+    </classes>
+  </test> -->
+ </suite>

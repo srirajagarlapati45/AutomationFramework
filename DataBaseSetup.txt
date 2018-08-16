@@ -1,0 +1,4 @@
+dataBaseURL=jdbc:oracle:thin:@192.168.0.193/orcl
+dataBaseUserID=PB_02MAR2018
+dataBasePassWord=PB_QA_50
+typeofDb=oracle

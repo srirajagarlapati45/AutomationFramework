@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="none">
+  <parameter name="excelName" value="wingslogin.xls"/>
+  <parameter name="sheetName" value="SheetNames2.txt"/>
+  <test name="screenVerification(failed)" parallel="none">
+    <parameter name="excelName" value="wingslogin.xls"/>
+    <parameter name="sheetName" value="SheetNames2.txt"/>
+    <classes>
+      <class name="usPayments.Login">
+        <methods>
+          <include name="logIn" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- usPayments.Login -->
+    </classes>
+  </test> <!-- screenVerification(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
