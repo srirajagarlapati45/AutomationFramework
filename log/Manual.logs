@@ -12915,3 +12915,20 @@
 2018-07-18 00:45:36,637 [main] INFO CKYC Dashboard Screen Verification - Switched to framename--->  myFrame
 2018-07-18 00:45:39,641 [main] INFO CKYC Dashboard Screen Verification - Searching for given xpath---->  //td[@class='ff_page_heading']
 2018-07-18 00:45:49,670 [main] INFO CKYC Dashboard Screen Verification - //td[@class='ff_page_heading']--->xpath not found
+2018-08-13 16:55:46,076 [main] INFO Browser - firefox---->Browser started
+2018-08-13 16:55:54,182 [main] INFO Browser - URL entred
+2018-08-13 16:55:54,188 [main] INFO Browser - Searching for given xpath---->  //input[@id='txtUserId']
+2018-08-13 16:55:54,450 [main] INFO Browser - //input[@id='txtUserId'] --->Element cleared
+2018-08-13 16:55:54,575 [main] INFO Browser - Admin-001 --->String entered in--> //input[@id='txtUserId']
+2018-08-13 16:55:54,579 [main] INFO Browser - Searching for given xpath---->  //input[@id='txtPassWd']
+2018-08-13 16:55:54,693 [main] INFO Browser - //input[@id='txtPassWd'] --->Element cleared
+2018-08-13 16:55:54,728 [main] INFO Browser - vsofthyd --->String entered in--> //input[@id='txtPassWd']
+2018-08-13 16:55:54,729 [main] INFO Browser - Searching for given xpath---->  //input[@id='Button1']
+2018-08-13 16:55:55,256 [main] INFO Browser - //input[@id='Button1']  ---->element clicked
+2018-08-13 16:55:58,311 [main] INFO Browser - Focus is shifted to a new window
+2018-08-13 16:55:58,333 [main] INFO Browser - Focus is shifted to a new window
+2018-08-13 16:56:03,887 [main] INFO Browser - back from frame
+2018-08-13 16:56:03,888 [main] INFO Browser - Searching for given xpath---->  //div[@class='header-link hide-menu']
+2018-08-13 16:56:04,147 [main] INFO Browser - //div[@class='header-link hide-menu']  ---->element clicked
+2018-08-13 16:56:09,147 [main] INFO Browser - Searching for given xpath---->  //li[@id='li[0]110']
+2018-08-13 16:56:09,506 [main] ERROR Browser - Unable to find----> //li[@id='li[0]110']

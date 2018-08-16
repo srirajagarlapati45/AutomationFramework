@@ -10,7 +10,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import actions.Action_Keys;
 import actions.ReportActionKeys;
 import testBase.TestBase;
-import waste.verifyTitle;
+
 
 public class VerifyTitle extends TestBase{
 	

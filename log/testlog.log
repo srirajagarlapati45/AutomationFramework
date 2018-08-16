@@ -12915,3 +12915,20 @@
 [Jul 18 00:45:36] INFO  (Action_Keys.java:174) - Switched to framename--->  myFrame
 [Jul 18 00:45:39] INFO  (FindElement.java:21) - Searching for given xpath---->  //td[@class='ff_page_heading']
 [Jul 18 00:45:49] INFO  (FindElement.java:31) - //td[@class='ff_page_heading']--->xpath not found
+[Aug 13 16:55:46] INFO  (Utilis.java:29) - firefox---->Browser started
+[Aug 13 16:55:54] INFO  (Action_Keys.java:366) - URL entred
+[Aug 13 16:55:54] INFO  (FindElement.java:21) - Searching for given xpath---->  //input[@id='txtUserId']
+[Aug 13 16:55:54] INFO  (Action_Keys.java:78) - //input[@id='txtUserId'] --->Element cleared
+[Aug 13 16:55:54] INFO  (Action_Keys.java:80) - Admin-001 --->String entered in--> //input[@id='txtUserId']
+[Aug 13 16:55:54] INFO  (FindElement.java:21) - Searching for given xpath---->  //input[@id='txtPassWd']
+[Aug 13 16:55:54] INFO  (Action_Keys.java:78) - //input[@id='txtPassWd'] --->Element cleared
+[Aug 13 16:55:54] INFO  (Action_Keys.java:80) - vsofthyd --->String entered in--> //input[@id='txtPassWd']
+[Aug 13 16:55:54] INFO  (FindElement.java:21) - Searching for given xpath---->  //input[@id='Button1']
+[Aug 13 16:55:55] INFO  (Action_Keys.java:103) - //input[@id='Button1']  ---->element clicked
+[Aug 13 16:55:58] INFO  (Action_Keys.java:153) - Focus is shifted to a new window
+[Aug 13 16:55:58] INFO  (Action_Keys.java:153) - Focus is shifted to a new window
+[Aug 13 16:56:03] INFO  (Action_Keys.java:215) - back from frame
+[Aug 13 16:56:03] INFO  (FindElement.java:21) - Searching for given xpath---->  //div[@class='header-link hide-menu']
+[Aug 13 16:56:04] INFO  (Action_Keys.java:103) - //div[@class='header-link hide-menu']  ---->element clicked
+[Aug 13 16:56:09] INFO  (FindElement.java:21) - Searching for given xpath---->  //li[@id='li[0]110']
+[Aug 13 16:56:09] ERROR (Action_Keys.java:105) - Unable to find----> //li[@id='li[0]110']

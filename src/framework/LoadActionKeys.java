@@ -311,7 +311,10 @@ public class LoadActionKeys {
 		case "roboDropDown":
 			Robot_Keys.roboDropDown(testDataAsInt1, testDataAsInt2, testData);
 			break;
-			
+				
+		case "pressEnter":
+			Robot_Keys.pressEnter();
+			break;
 			
 		case "AcceptSilverScreenAlert":
 			Robot_Keys.AcceptSilverScreenAlert();
