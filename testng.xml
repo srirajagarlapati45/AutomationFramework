@@ -2,7 +2,7 @@
 <suite name="Suite1" parallel="none" verbose="1" >
   <test name="login" >
   
-  <parameter name="excelName" value="wingslogin.xls"/>
+  <parameter name="excelName" value="wingslogin1.xls"/>
   <parameter name="sheetName" value="SheetNames.txt"/>
   
     <classes>
